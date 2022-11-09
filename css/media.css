@@ -1,0 +1,16 @@
+@media(max-width: 414px) {
+    .logo_block {
+        flex-direction: column;
+
+    }
+        .logo_block h1 {
+        font-size: 18px;
+        margin-top: 25px;
+
+    }
+nav{
+    display: none;
+}
+
+
+}

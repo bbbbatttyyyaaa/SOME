@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_block {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.logo_block h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #0088A2;
+    font-family: 'Josefin Sans';
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    flex: 0 1 20%;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 1);
+    list-style: none;
+}
+
+.menu__item {
+    font-family: 'Open Sans';
+    font-size: 35px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    transition: 0.6s;
+}
+
+.menu__item:hover {
+    background-color: #0088A2;
+}
+
+.section_questions {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 30px;
+}
+
+.question__card {
+    position: relative;
+    flex: 0 1 30%;
+    transition: 0.5s;
+}
+
+.question__card:hover {
+    transform: scale(1.2);
+}
+
+.question__card img {
+    width: 100%;
+}
+
+.question__card p {
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 24px;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+h1{
+    text-align: center;
+    color: #0088A2;
+    height: 155px;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 450;
+font-size: 96px;
+line-height: 131px;
+}
+
+.app0{
+    position: relative;
+width: 90%;
+height: 150px;
+margin: 50px;
+top: 50px;
+left: 50px;
+}
+
+.photo1{
+    justify-content: right;
+}
+
